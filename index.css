@@ -1,0 +1,70 @@
+/* Basic reset and center */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Card container */
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  max-width: 350px;
+  text-align: center;
+}
+
+/* Profile image style */
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #4a90e2;
+}
+
+/* Name and title */
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.profile-title {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Bio paragraph */
+.profile-bio {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* Contact links */
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  color: #4a90e2;
+}
+
+.contact-info a {
+  color: #4a90e2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #002f6c;
+}
